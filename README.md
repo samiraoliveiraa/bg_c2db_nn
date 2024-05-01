@@ -6,23 +6,23 @@ Este repositório trata-se de um trabalho final feito por três estudantes da IL
 _Informações sobre o Dataset_<br>
 O Dataset em questão possui os seguintes atritubos:
 
-_Formula_<br>: A fórmula química e a estrutura dos materiais bidimensionais influenciam o band gap através de sua composição atômica. Essas propriedades também foram usadas para prever a eletronegatividade do material por meio de técnicas de partição para extração dos átomos individuais. 
+_Formula:_<br>A fórmula química e a estrutura dos materiais bidimensionais influenciam o band gap através de sua composição atômica. Essas propriedades também foram usadas para prever a eletronegatividade do material por meio de técnicas de partição para extração dos átomos individuais. 
 
-_Thermodynamic stability level_<br>:  A estabilidade termodinâmica de um material afeta diretamente suas propriedades físicas e eletrônicas. Materiais mais estáveis tendem a ter uma estrutura cristalina mais ordenada, o que pode influenciar o band gap.
+_Thermodynamic stability level:_<br>  A estabilidade termodinâmica de um material afeta diretamente suas propriedades físicas e eletrônicas. Materiais mais estáveis tendem a ter uma estrutura cristalina mais ordenada, o que pode influenciar o band gap.
 
-_Energy(ev/atom)_<br>:  A energia total do sistema está relacionada à sua estrutura e estabilidade. Ela pode fornecer informações sobre a força das ligações químicas presentes no material, o que influencia as propriedades eletrônicas.
+_Energy(ev/atom):_<br>  A energia total do sistema está relacionada à sua estrutura e estabilidade. Ela pode fornecer informações sobre a força das ligações químicas presentes no material, o que influencia as propriedades eletrônicas.
 
-_Work function(eV)_<br>: A função de trabalho é a energia mínima necessária para remover um elétron de um material para o vácuo. Ela está intimamente relacionada à energia de Fermi do material e pode afetar o comportamento dos elétrons na superfície do material.
+_Work function(eV):_<br> A função de trabalho é a energia mínima necessária para remover um elétron de um material para o vácuo. Ela está intimamente relacionada à energia de Fermi do material e pode afetar o comportamento dos elétrons na superfície do material.
 
-_Heat of formation(eV/atom)_<br>: O calor de formação é a quantidade de energia liberada ou absorvida quando um composto é formado a partir de seus elementos constituintes. Ele pode indicar a estabilidade do material e sua capacidade de formar ligações químicas.
+_Heat of formation(eV/atom):_<br> O calor de formação é a quantidade de energia liberada ou absorvida quando um composto é formado a partir de seus elementos constituintes. Ele pode indicar a estabilidade do material e sua capacidade de formar ligações químicas.
 
-_Space group number_<br>:  O grupo espacial descreve a simetria da estrutura cristalina do material, podendo afetar a dispersão de elétrons e lacunas na estrutura de bandas. Seu número vai de 1 a 230 e cada grupo representa uma simetria diferente de um cristal periódico 
+_Space group number:_<br>  O grupo espacial descreve a simetria da estrutura cristalina do material, podendo afetar a dispersão de elétrons e lacunas na estrutura de bandas. Seu número vai de 1 a 230 e cada grupo representa uma simetria diferente de um cristal periódico 
 
-_Volume of unity cell(Å³)_<br>: O volume da célula unitária está diretamente relacionado à densidade do material e à distância média entre os átomos. Isso influencia a interação entre os elétrons.
+_Volume of unity cell(Å³):_<br> O volume da célula unitária está diretamente relacionado à densidade do material e à distância média entre os átomos. Isso influencia a interação entre os elétrons.
 
-_Eletronegativity_<br>: A eletronegatividade é a tendência de um átomo de atrair elétrons para si mesmo quando está ligado a outro átomo. Ela pode influenciar a polaridade das ligações químicas.
+_Eletronegativity:_<br> A eletronegatividade é a tendência de um átomo de atrair elétrons para si mesmo quando está ligado a outro átomo. Ela pode influenciar a polaridade das ligações químicas.
 
-_Band gap_<br>: O band gap é a energia necessária para excitar um elétron de um estado ligado para um estado não ligado (condução) e é o principal alvo de previsão.
+_Band gap:_<br> O band gap é a energia necessária para excitar um elétron de um estado ligado para um estado não ligado (condução) e é o principal alvo de previsão.
 
 
 _Funcionamento Código_
