@@ -26,7 +26,7 @@ _Band gap:_<br> O band gap é a energia necessária para excitar um elétron de 
 
 
 <b><br>_Funcionamento Código_<br></b>
-O codigo usa como modelo uma rede neural, sendo as Bibliotecas e funções usadas e necessárias para importação:
+O codigo usa como modelo uma rede neural com (DETALHAR MAIS DO FUNCIONAMENTO, tratamento, otimização etc etc), sendo as Bibliotecas e funções usadas e necessárias para importação:
 
 Pandas: Biblioteca fundamental para manipulação e análise de dados em Python. Utiliza estruturas de dados, como o DataFrame, facilitando operações como carregamento, limpeza e transformação de dados de forma eficiente.
 
