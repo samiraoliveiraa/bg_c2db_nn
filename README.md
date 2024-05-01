@@ -1,4 +1,4 @@
-### bg_c2db_nn - Trabalho Final Redes Neurais
+# bg_c2db_nn - Trabalho Final Redes Neurais
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Betero_
 
 Este repositório trata-se do trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de uma rede neural para prever o band gap por meio de banco de dados de material 2D (C2DB). O banco de dados contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais (2D) distribuídos em mais de 40 estruturas cristalinas diferentes. 
