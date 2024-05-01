@@ -30,6 +30,6 @@ O codigo usa como modelo uma rede neural MLP com (DETALHAR MAIS DO FUNCIONAMENTO
 
 Pandas: Biblioteca fundamental para manipulação e análise de dados em Python. Utiliza estruturas de dados, como o DataFrame, facilitando operações como carregamento, limpeza e transformação de dados de forma eficiente.
 
-<b><br>Referencias<br></b>
+<b><br>Referências<br></b>
 Banco de dados C2DB: https://cmr.fysik.dtu.dk/c2db/c2db.html#brief-description 
 
