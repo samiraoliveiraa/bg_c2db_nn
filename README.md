@@ -1,1 +1,31 @@
-# bg_c2db_nn
+### bg_c2db_nn - Trabalho Final Redes Neurais
+Grupo: Natália Alcantara, Samira Oliveira e Geovana Betero
+Este repositório trata-se do trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de uma rede neural para prever o band gap por meio de banco de dados de material 2D (C2DB). O banco de dados contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais (2D) distribuídos em mais de 40 estruturas cristalinas diferentes. 
+
+Informações sobre o Dataset
+O Dataset em questão possui os seguintes atritubos:
+
+Formula: A fórmula química e a estrutura dos materiais bidimensionais influenciam o band gap através de sua composição atômica, sendo assim, esse atributo também foi utlizado para prever a eletronegatividade do material através de uma técnica de parcionamento. 
+
+Thermodynamic stability level:  A estabilidade termodinâmica de um material afeta diretamente suas propriedades físicas e eletrônicas. Materiais mais estáveis tendem a ter uma estrutura cristalina mais ordenada, o que pode influenciar o band gap.
+
+Energy(ev/atom):  A energia total do sistema está relacionada à sua estrutura e estabilidade. Ela pode fornecer informações sobre a força das ligações químicas presentes no material, o que influencia as propriedades eletrônicas.
+
+Work function(eV): A função de trabalho é a energia mínima necessária para remover um elétron de um material para o vácuo. Ela está intimamente relacionada à energia de Fermi do material e pode afetar o comportamento dos elétrons na superfície do material.
+
+Heat of formation(eV/atom): O calor de formação é a quantidade de energia liberada ou absorvida quando um composto é formado a partir de seus elementos constituintes. Ele pode indicar a estabilidade do material e sua capacidade de formar ligações químicas.
+
+Space group number:  O grupo espacial descreve a simetria da estrutura cristalina do material. A simetria afeta as propriedades eletrônicas, como a dispersão de elétrons e lacunas na estrutura de bandas. O mesmo vai de 1 a 230 e cada grupo representa uma simetria diferente de um cristal periódico 
+
+Volume of unity cell(Å³): O volume da célula unitária está diretamente relacionado à densidade do material e à distância média entre os átomos. Isso pode influenciar a interação entre os elétrons, afetando assim o band gap.
+
+Eletronegativity: A eletronegatividade é uma medida da tendência de um átomo de atrair elétrons para si mesmo quando está ligado a outro átomo. Ela pode influenciar a polaridade das ligações químicas e, portanto, as propriedades eletrônicas do material.
+
+Band gap: O band gap é a energia necessária para excitar um elétron de um estado ligado para um estado não ligado (condução). É o principal alvo de previsão e é fundamental para entender as propriedades eletrônicas do material.
+
+
+Funcionamento Código
+O codigo usa como modelo uma rede neural, sendo as Bibliotecas e funções usadas e necessárias para importação:
+
+Pandas: Biblioteca fundamental para manipulação e análise de dados em Python. Utiliza estruturas de dados, como o DataFrame, facilitando operações como carregamento, limpeza e transformação de dados de forma eficiente.
+
