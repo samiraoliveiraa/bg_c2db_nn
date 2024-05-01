@@ -25,7 +25,7 @@ _Eletronegativity:_<br> A eletronegatividade é a tendência de um átomo de atr
 _Band gap:_<br> O band gap é a energia necessária para excitar um elétron de um estado ligado para um estado não ligado (condução) e é o principal alvo de previsão.
 
 
-_Funcionamento Código_
+_Funcionamento Código_<br>
 O codigo usa como modelo uma rede neural, sendo as Bibliotecas e funções usadas e necessárias para importação:
 
 Pandas: Biblioteca fundamental para manipulação e análise de dados em Python. Utiliza estruturas de dados, como o DataFrame, facilitando operações como carregamento, limpeza e transformação de dados de forma eficiente.
