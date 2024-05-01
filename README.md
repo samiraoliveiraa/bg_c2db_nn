@@ -3,7 +3,7 @@ _Grupo: Natália Alcantara, Samira Oliveira e Geovana Betero_
 
 Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de uma rede neural para prever o band gap de um material por meio de banco de dados de material 2D (C2DB). O banco de dados contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais (2D) distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem dataset foram elencadas algumas colunas do banco para sua formulação, como visto a seguir:
 
-_Informações sobre o Dataset_<br>
+<br>_Informações sobre o Dataset_<br>
 O Dataset em questão possui os seguintes atritubos:
 
 _Formula:_<br>A fórmula química e a estrutura dos materiais bidimensionais influenciam o band gap através de sua composição atômica. Essas propriedades também foram usadas para prever a eletronegatividade do material por meio de técnicas de partição para extração dos átomos individuais. 
@@ -25,11 +25,11 @@ _Eletronegativity:_<br> A eletronegatividade é a tendência de um átomo de atr
 _Band gap:_<br> O band gap é a energia necessária para excitar um elétron de um estado ligado para um estado não ligado (condução) e é o principal alvo de previsão.
 
 
-_Funcionamento Código_<br>
+<br>_Funcionamento Código_<br>
 O codigo usa como modelo uma rede neural, sendo as Bibliotecas e funções usadas e necessárias para importação:
 
 Pandas: Biblioteca fundamental para manipulação e análise de dados em Python. Utiliza estruturas de dados, como o DataFrame, facilitando operações como carregamento, limpeza e transformação de dados de forma eficiente.
 
-Referencias
+<br>Referencias<br>
 Banco de dados C2DB: https://cmr.fysik.dtu.dk/c2db/c2db.html#brief-description 
 
