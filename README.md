@@ -1,10 +1,11 @@
 # bg_c2db_nn - Trabalho Final Redes Neurais
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Betero_
 
-Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de uma rede neural MLP para prever o band gap de um material por meio de banco de dados (C2DB) de material 2D. O banco de dados contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais (2D) distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem dataset foram escolhidas algumas colunas do banco para sua formulação, como visto a seguir
+Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de uma rede neural MLP para prever o band gap de um material por meio de banco de dados (C2DB) de material 2D. O banco de dados contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais (2D) distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem dataset foram escolhidas algumas colunas do banco para sua formulação, como visto a seguir.
 <hr>
 <b><br>Informações sobre o Dataset<br></b>
 O Dataset em questão possui os seguintes atritubos:
+
 
 _Fórmula:_<br>A fórmula química e a estrutura dos materiais bidimensionais influenciam o band gap através de sua composição atômica. Esse atributo também foi usado para prever a eletronegatividade do material por meio de técnicas de partição para extração dos átomos individuais. 
 
