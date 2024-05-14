@@ -39,6 +39,6 @@ Sendo as Bibliotecas e funções usadas e necessárias para importação: Pandas
 <b><br>_Conclusão_<br></b>
 Após a otimização dos hiperparâmetros, percebeu-se que 
 
-<br><hr><br>
+<hr>
 <b><br>Referências<br></b>
 Banco de dados C2DB: https://cmr.fysik.dtu.dk/c2db/c2db.html#brief-description 
