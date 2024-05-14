@@ -2,7 +2,7 @@
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Betero_
 
 Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de uma rede neural MLP para prever o band gap de um material por meio de banco de dados (C2DB) de material 2D. O banco de dados contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais (2D) distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem dataset foram escolhidas algumas colunas do banco para sua formulação, como visto a seguir:
-
+<hr>
 <b><br>_Informações sobre o Dataset_<br></b>
 O Dataset em questão possui os seguintes atritubos:
 
@@ -30,12 +30,14 @@ O código usa como modelo uma rede neural MLP utilizando o PyTorch Lightning. No
 <b><br>_Bibliotecas_<br></b>
 Sendo as Bibliotecas e funções usadas e necessárias para importação: Pandas, re, lightnig, matplotlib, numpy, pickle, torch, scipy e sklearn. 
 
+<hr>
+
 <b><br>_Documentos no Github_<br></b>
 
 
 <b><br>_Conclusão_<br></b>
 Após a otimização dos hiperparâmetros, percebeu-se que 
 
-<hr>
+
 <b><br>Referências<br></b>
 Banco de dados C2DB: https://cmr.fysik.dtu.dk/c2db/c2db.html#brief-description 
