@@ -25,6 +25,8 @@ _Eletronegativity:_<br> A eletronegatividade é a tendência de um átomo de atr
 
 _Band gap:_<br> O band gap é a energia necessária para excitar um elétron de um estado ligado para um estado não ligado (condução) e é o principal alvo de previsão.
 
+_Moléculas da tabela Periódica: Para previsões de outros materiais que não estão no dataset
+
 <hr>
 <b><br>Funcionamento Código<br></b>
 O código usa como modelo uma rede neural MLP utilizando o PyTorch Lightning. No Notebook em questão há maior detalhamento acerca dos tratamentos dos dados, parcionamento das fórmulas, criação do atributo eletronegatividade e otimização utilizando Optune. 
