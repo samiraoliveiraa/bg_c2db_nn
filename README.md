@@ -40,7 +40,7 @@ Sendo as Bibliotecas e funções usadas e necessárias para importação: Pandas
 
 <hr>
 <b><br>Conclusão<br></b>
-Após a otimização dos hiperparâmetros, percebeu-se que 
+Após a otimização dos hiperparâmetros, percebeu-se que o 
 
 <hr>
 <b><br>Referências<br></b>
