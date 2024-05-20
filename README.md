@@ -36,7 +36,7 @@ As Bibliotecas e funções usadas e necessárias para importação: Pandas, re, 
 
 <hr>
 
-<b><br>Documentos no Github<br></b>
+<b>Documentos no Github<br></b>
 
 <b>C2DB_full.csv:</b> dataset completo
 
