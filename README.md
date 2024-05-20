@@ -56,7 +56,7 @@ _modelo_final.BG.p_:
 
 <hr>
 <b><br>Conclusão<br></b>
-Após otimizar os hiperparâmetros, nota-se que o conjunto ideal que se adapta ao modelo resultou em um Erro Quadrático Médio (RMSE) de aproximadamente 0,867. Portanto, esse valor não foi a ideal, dessa forma a rede em questão não é tão satisfatória por necessitar de uma alta precisão nos resultados, indicando a necessidade de aprimoramentos adicionais na rede. 
+Após a otimização, nota-se que o conjunto ideal que se adapta a rede resultou em um Erro Quadrático Médio (RMSE) de aproximadamente 0,867. Dessa forma a rede em questão não é tão satisfatória por o target necessitar de uma alta precisão nos resultados, indicando a necessidade de aprimoramentos adicionais na rede. 
 
 <hr>
 <b><br>Referências<br></b>
