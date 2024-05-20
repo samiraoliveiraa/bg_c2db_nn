@@ -38,13 +38,13 @@ As Bibliotecas e funções usadas e necessárias para importação: Pandas, re, 
 
 <b>Documentos no Github<br></b>
 
-_C2DB_full.csv_: dataset completo
+_C2DB_full.csv_: Dataset completo
 
-_dataset_tratado.csv_: dataset tratado
+_dataset_tratado.csv_: Dataset tratado
 
-_tratamento_de_dados.ipynb_: processo de tratamento do dataset
+_tratamento_de_dados.ipynb_: Processo de tratamento do dataset
 
-_treinamento_da_rede.ipynb_: implementação da rede neural
+_treinamento_da_rede.ipynb_: Implementação da rede neural
 
 _otimizacao_da_rede_gpu.py_:
 
@@ -56,7 +56,7 @@ _modelo_final.BG.p_:
 
 <hr>
 <b><br>Conclusão<br></b>
-Após otimizar os hiperparâmetros, nota-se que o conjunto ideal que se adapta ao modelo resultou em um Erro Quadrático Médio (RMSE) de aproximadamente X. Entretanto, esse valor não é tão satisfatório, indicando a necessidade de aprimoramentos adicionais na rede.  
+Após otimizar os hiperparâmetros, nota-se que o conjunto ideal que se adapta ao modelo resultou em um Erro Quadrático Médio (RMSE) de aproximadamente 0,867. Vale ressaltar que a curva de aprendizado também não foi a ideal, dessa forma a rede em questão não é tão satisfatória por o target em questão necessitar de uma alta precisão nos resultados, indicando a necessidade de aprimoramentos adicionais na rede. 
 
 <hr>
 <b><br>Referências<br></b>
