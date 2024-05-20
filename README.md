@@ -32,7 +32,7 @@ _Band gap:_<br> O band gap é a energia necessária para excitar um elétron de 
 _Elementos presentes nos materiais do dataset:_<br> Esses elementos parcionados podem ser utilizados para previsões de outros materiais que não estão no dataset.
 
 <hr>
-<b><br>Funcionamento Código e Utilização<br></b>
+<b><br> Funcionamento Código e Utilização <br></b>
 
 O código deste repositório emprega uma rede neural MLP utilizando o PyTorch Lightning. Nos notebooks fornecidos, há uma explicação detalhada do processo passo a passo, abrangendo desde o tratamento dos dados até o treinamento da rede e a otimização utilizando Optuna. Cada etapa do processo é descrita no notebook, fornecendo detalhes sobre como os dados são preparados, como as fórmulas são particionadas para criar o atributo de eletronegatividade e como a rede neural é ajustada para melhor desempenho. Este repositório serve como um recurso valioso para aqueles que desejam entender e aplicar métodos de aprendizado de máquina para previsão de band gap em materiais.
 
@@ -65,11 +65,18 @@ Após a otimização, nota-se que o conjunto ideal hiperparâmetros que se adapt
 
 <hr>
 <b><br>Referências<br></b>
+
 [1] Banco de dados C2DB: https://cmr.fysik.dtu.dk/c2db/c2db.html#brief-description 
+
 [2] CASSAR, D. R. PyTorch Lightning. (2024)
+
 [3] CASSAR, D. R.Treinando uma rede neural com pytorch. (2024)
+
 [4] CASSAR, D. R. Redes neurais artificiais do zero em Python. (2024)
+
 [5] CASSAR, D. R. Avaliação de modelos: a estratégia de divisão entre treino e teste. (2023)
+
 [6] CASSAR, D. R. Transformação e normalização. (2023)
+
 [7] CASSAR, D. R. Conversão simbólico-numérico. (2023)
 
