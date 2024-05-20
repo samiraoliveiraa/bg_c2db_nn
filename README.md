@@ -25,7 +25,7 @@ _Eletronegativity:_<br> A eletronegatividade é a tendência de um átomo de atr
 
 _Band gap:_<br> O band gap é a energia necessária para excitar um elétron de um estado ligado para um estado não ligado (condução) e é o principal alvo de previsão.
 
-_Moléculas da tabela Periódica: Para previsões de outros materiais que não estão no dataset
+_Elementos presentes nos materiais do dataset:_<br> Para previsões de outros materiais que não estão no dataset.
 
 <hr>
 <b><br>Funcionamento Código<br></b>
@@ -37,10 +37,18 @@ Sendo as Bibliotecas e funções usadas e necessárias para importação: Pandas
 <hr>
 
 <b><br>Documentos no Github<br></b>
+C2DB_full.csv: dataset completo
+dataset_tratado.csv: dataset tratado
+tratamento_de_dados.ipynb: processo de tratamento do dataset
+treinamento_da_rede.ipynb: implementação da rede neural
+otimizacao_da_rede_gpu.py: 
+trials_gpu.ipynb: 
+job_gpu.sh: 
+modelo_final.BG.p: 
 
 <hr>
 <b><br>Conclusão<br></b>
-Após a otimização dos hiperparâmetros, percebeu-se que o 
+Após otimizar os hiperparâmetros, nota-se que o conjunto ideal que se adapta ao modelo resultou em um Erro Quadrático Médio (RMSE) de aproximadamente X. Entretanto, esse valor não é tão satisfatório, indicando a necessidade de aprimoramentos adicionais na rede.  
 
 <hr>
 <b><br>Referências<br></b>
