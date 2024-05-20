@@ -50,7 +50,7 @@ _otimizacao_da_rede_gpu.py_:
 
 _trials_gpu.ipynb_:
 
-job_gpu.sh:
+_job_gpu.sh_:
 
 _modelo_final.BG.p_:
 
