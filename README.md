@@ -38,20 +38,21 @@ As Bibliotecas e funções usadas e necessárias para importação: Pandas, re, 
 
 <b>Documentos no Github<br></b>
 
-C2DB_full.csv: dataset completo
+_C2DB_full.csv_: dataset completo
 
-dataset_tratado.csv: dataset tratado
+_dataset_tratado.csv_: dataset tratado
 
-tratamento_de_dados.ipynb: processo de tratamento do dataset
+_tratamento_de_dados.ipynb_: processo de tratamento do dataset
 
-treinamento_da_rede.ipynb: implementação da rede neural
+_treinamento_da_rede.ipynb_: implementação da rede neural
 
-otimizacao_da_rede_gpu.py:
+_otimizacao_da_rede_gpu.py_:
 
-trials_gpu.ipynb:
+_trials_gpu.ipynb_:
+
 job_gpu.sh:
 
-modelo_final.BG.p:
+_modelo_final.BG.p_:
 
 <hr>
 <b><br>Conclusão<br></b>
