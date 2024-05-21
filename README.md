@@ -35,10 +35,10 @@ _Elementos presentes nos materiais do dataset:_<br> Esses elementos parcionados 
 <hr>
 <b><br> Funcionamento Código e Utilização <br></b>
 
-O código deste repositório emprega uma rede neural MLP utilizando o PyTorch Lightning. Nos notebooks fornecidos, há uma explicação detalhada do processo passo a passo, abrangendo desde o tratamento dos dados até o treinamento da rede e a otimização utilizando Optuna. Cada etapa do processo é descrita no notebook, fornecendo detalhes sobre como os dados são preparados, como as fórmulas são particionadas para criar o atributo de eletronegatividade e como a rede neural é ajustada para melhor desempenho. Este repositório serve como um recurso valioso para aqueles que desejam entender e aplicar métodos de aprendizado de máquina para previsão de band gap em materiais.
+O código deste repositório emprega uma rede neural MLP utilizando o PyTorch Lightning. Nos notebooks fornecidos, há uma explicação detalhada do processo, abrangendo desde o tratamento dos dados até o treinamento da rede e a otimização utilizando Optuna. As etapas do processo são descritas no notebook, fornecendo detalhes sobre preparação dos daods,parcionamento das fórmulas para criar o atributo de eletronegatividade e como a rede neural é ajustada para melhor desempenho. Este repositório serve como um recurso valioso para aqueles que desejam entender e aplicar métodos de aprendizado de máquina para previsão de band gap em materiais 2D.
 
 <b><br>Bibliotecas<br></b>
-As Bibliotecas e funções usadas e necessárias para importação: Pandas, re, lightnig, matplotlib, numpy, pickle, torch, scipy e sklearn. 
+As Bibliotecas e funções usadas e necessárias para importação: Pandas, re, lightnig, matplotlib, numpy, pickle, torch, scipy, sklearn e optuna.  
 
 <hr>
 
@@ -72,4 +72,6 @@ Após a otimização, nota-se que o conjunto ideal hiperparâmetros que se adapt
 [6] CASSAR, D. R. Transformação e normalização. (2023)
 
 [7] CASSAR, D. R. Conversão simbólico-numérico. (2023)
+
+[8] ChatGPT para ajuda na resolução de bugs
 
