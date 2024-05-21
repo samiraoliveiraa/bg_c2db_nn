@@ -58,14 +58,14 @@ _treinamento_da_rede_otimizacao_gpu.ip_: Implementação da rede neural
 
 _otimizacao_dos_hiperparametros.py_: Processo de otimizacao dos hiperparâmetros utilizando Optuna
 
-_trials_job_1516.out_:Este script é utilizado para executar tarefas de treinamento e otimização em um ambiente de computação que suporte GPUs 
+_trials_job_1516.out_:Este script é utilizado para executar tarefas de treinamento e otimização em um ambiente que suporte GPUs 
 
 _modelo_final.BG.p_: arquivo que contém os pesos e vieses da rede neural treinada
 
 
 <hr>
 <b><br>Conclusão<br></b>
-Após a otimização, nota-se que o conjunto ideal hiperparâmetros que se adapta a rede resultou em um Erro Quadrático Médio (RMSE) de aproximadamente 0,867. Dessa forma é possível concluir a rede em questão não é tão satisfatória, por o target necessitar de uma alta precisão nos resultados, indicando assim a necessidade de aprimoramentos adicionais na rede. 
+Após a otimização, nota-se que o conjunto ideal hiperparâmetros que se adapta a rede resultou em um Erro Quadrático Médio (RMSE) de aproximadamente 0.75. Dessa forma é possível concluir a rede em questão não é tão satisfatória, por o target necessitar de uma alta precisão nos resultados, indicando assim a necessidade de aprimoramentos adicionais na rede. 
 
 <hr>
 <b><br>Referências<br></b>
@@ -84,7 +84,11 @@ Após a otimização, nota-se que o conjunto ideal hiperparâmetros que se adapt
 
 [7] CASSAR, D. R. Conversão simbólico-numérico. (2023)
 
-[8] ChatGPT para ajuda na resolução de bugs
+[8] ChatGPT para ajuda na resolução de bugs. Disponível em: https://chatgpt.com/.
 
 [9]Imagem de Band Gap: https://nirajchawake.wordpress.com/2014/10/20/semiconductors-why-%E2%88%86e%E2%89%A43-2-ev/
+
+[10] FQ.pt. (2024). Eletronegatividade. Disponível em: https://www.fq.pt/ligacao-quimica/eletronegatividade.
+
+[11] Python Software Foundation. (2024). re — Operações com expressões regulares. Disponível em: https://docs.python.org/pt-br/3/library/re.html.
 
