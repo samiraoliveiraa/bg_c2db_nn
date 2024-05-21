@@ -1,0 +1,2203 @@
+[I 2024-05-20 19:44:51,916] A new study created in memory with name: no-name-349b5bf8-1913-4506-85eb-1439c4975d02
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 3060') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 214 K 
+---------------------------------------------
+214 K     Trainable params
+0         Non-trainable params
+214 K     Total params
+0.859     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:45:15,921] Trial 0 finished with value: 1.0814849062374983 and parameters: {'num_neuronios': 310, 'num_camadas': 3, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 1.654088727236076e-05, 'otimizador': 'SGD'}. Best is trial 0 with value: 1.0814849062374983.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 20.9 K
+---------------------------------------------
+20.9 K    Trainable params
+0         Non-trainable params
+20.9 K    Total params
+0.084     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:45:30,689] Trial 1 finished with value: 1.0117390669421402 and parameters: {'num_neuronios': 72, 'num_camadas': 4, 'funcao_de_ativacao': 'LeakyReLU', 'taxa_de_aprendizado': 1.6029256765761785e-05, 'otimizador': 'ADAM'}. Best is trial 1 with value: 1.0117390669421402.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 124 K 
+---------------------------------------------
+124 K     Trainable params
+0         Non-trainable params
+124 K     Total params
+0.499     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:45:47,560] Trial 2 finished with value: 0.9042273912185713 and parameters: {'num_neuronios': 192, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 1.3208170001882171e-05, 'otimizador': 'RMSPROP'}. Best is trial 2 with value: 0.9042273912185713.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 727 K 
+---------------------------------------------
+727 K     Trainable params
+0         Non-trainable params
+727 K     Total params
+2.909     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:46:07,022] Trial 3 finished with value: 1.0354410454298744 and parameters: {'num_neuronios': 585, 'num_camadas': 3, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.008523783421525957, 'otimizador': 'SGD'}. Best is trial 2 with value: 0.9042273912185713.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 624 K 
+---------------------------------------------
+624 K     Trainable params
+0         Non-trainable params
+624 K     Total params
+2.499     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:46:26,029] Trial 4 finished with value: 1.148033977278858 and parameters: {'num_neuronios': 541, 'num_camadas': 3, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 6.686178846983951e-06, 'otimizador': 'SGD'}. Best is trial 2 with value: 0.9042273912185713.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 634 K 
+---------------------------------------------
+634 K     Trainable params
+0         Non-trainable params
+634 K     Total params
+2.538     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:46:50,547] Trial 5 finished with value: 0.8736222164080771 and parameters: {'num_neuronios': 389, 'num_camadas': 5, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.00013756587224835606, 'otimizador': 'ADAM'}. Best is trial 5 with value: 0.8736222164080771.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 208 K 
+---------------------------------------------
+208 K     Trainable params
+0         Non-trainable params
+208 K     Total params
+0.833     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:47:09,875] Trial 6 finished with value: 4.954349416924996 and parameters: {'num_neuronios': 219, 'num_camadas': 5, 'funcao_de_ativacao': 'Tangente_Hiperbólica', 'taxa_de_aprendizado': 0.4287662896526461, 'otimizador': 'ADAM'}. Best is trial 5 with value: 0.8736222164080771.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 30.2 K
+---------------------------------------------
+30.2 K    Trainable params
+0         Non-trainable params
+30.2 K    Total params
+0.121     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:47:24,211] Trial 7 finished with value: 1.435776398498868 and parameters: {'num_neuronios': 106, 'num_camadas': 3, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 1.2354654258689445e-06, 'otimizador': 'SGD'}. Best is trial 5 with value: 0.8736222164080771.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 6.3 K 
+---------------------------------------------
+6.3 K     Trainable params
+0         Non-trainable params
+6.3 K     Total params
+0.025     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:47:39,220] Trial 8 finished with value: 1.0931620598647738 and parameters: {'num_neuronios': 35, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 1.05781004483401e-05, 'otimizador': 'SGD'}. Best is trial 5 with value: 0.8736222164080771.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 1.4 M 
+---------------------------------------------
+1.4 M     Trainable params
+0         Non-trainable params
+1.4 M     Total params
+5.481     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:48:00,342] Trial 9 finished with value: 1.062826336091347 and parameters: {'num_neuronios': 576, 'num_camadas': 5, 'funcao_de_ativacao': 'Relu', 'taxa_de_aprendizado': 3.0487198216224052e-06, 'otimizador': 'SGD'}. Best is trial 5 with value: 0.8736222164080771.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 796 K 
+---------------------------------------------
+796 K     Trainable params
+0         Non-trainable params
+796 K     Total params
+3.187     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:48:25,575] Trial 10 finished with value: 0.9255220233310668 and parameters: {'num_neuronios': 437, 'num_camadas': 5, 'funcao_de_ativacao': 'Relu', 'taxa_de_aprendizado': 0.00048156718841059823, 'otimizador': 'ADAM'}. Best is trial 5 with value: 0.8736222164080771.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 225 K 
+---------------------------------------------
+225 K     Trainable params
+0         Non-trainable params
+225 K     Total params
+0.901     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:48:43,655] Trial 11 finished with value: 0.8623690522435966 and parameters: {'num_neuronios': 262, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.00026146914944483136, 'otimizador': 'RMSPROP'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 647 K 
+---------------------------------------------
+647 K     Trainable params
+0         Non-trainable params
+647 K     Total params
+2.589     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:49:04,589] Trial 12 finished with value: 0.8797935830302807 and parameters: {'num_neuronios': 393, 'num_camadas': 5, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.000511098270027165, 'otimizador': 'RMSPROP'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 328 K 
+---------------------------------------------
+328 K     Trainable params
+0         Non-trainable params
+328 K     Total params
+1.316     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:49:24,870] Trial 13 finished with value: 4.131332443296141 and parameters: {'num_neuronios': 319, 'num_camadas': 4, 'funcao_de_ativacao': 'Tangente_Hiperbólica', 'taxa_de_aprendizado': 0.003775705435896304, 'otimizador': 'RMSPROP'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 651 K 
+---------------------------------------------
+651 K     Trainable params
+0         Non-trainable params
+651 K     Total params
+2.608     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:49:45,508] Trial 14 finished with value: 1.0194199395385664 and parameters: {'num_neuronios': 454, 'num_camadas': 4, 'funcao_de_ativacao': 'LeakyReLU', 'taxa_de_aprendizado': 0.0030145521214149833, 'otimizador': 'RMSPROP'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 346 K 
+---------------------------------------------
+346 K     Trainable params
+0         Non-trainable params
+346 K     Total params
+1.385     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:50:05,623] Trial 15 finished with value: 0.8856403519241286 and parameters: {'num_neuronios': 285, 'num_camadas': 5, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.000112243784803481, 'otimizador': 'ADAM'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 112 K 
+---------------------------------------------
+112 K     Trainable params
+0         Non-trainable params
+112 K     Total params
+0.451     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:50:23,037] Trial 16 finished with value: 0.8890158999048091 and parameters: {'num_neuronios': 182, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 7.471580698495465e-05, 'otimizador': 'RMSPROP'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 578 K 
+---------------------------------------------
+578 K     Trainable params
+0         Non-trainable params
+578 K     Total params
+2.314     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:50:46,311] Trial 17 finished with value: 1.081867824967276 and parameters: {'num_neuronios': 371, 'num_camadas': 5, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.032115215959256004, 'otimizador': 'ADAM'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 732 K 
+---------------------------------------------
+732 K     Trainable params
+0         Non-trainable params
+732 K     Total params
+2.931     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:51:11,412] Trial 18 finished with value: 0.865401161500013 and parameters: {'num_neuronios': 482, 'num_camadas': 4, 'funcao_de_ativacao': 'Relu', 'taxa_de_aprendizado': 8.976958165687298e-05, 'otimizador': 'ADAM'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 691 K 
+---------------------------------------------
+691 K     Trainable params
+0         Non-trainable params
+691 K     Total params
+2.767     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:51:32,473] Trial 19 finished with value: 1.2981767387685297 and parameters: {'num_neuronios': 468, 'num_camadas': 4, 'funcao_de_ativacao': 'Relu', 'taxa_de_aprendizado': 0.04780034231706224, 'otimizador': 'RMSPROP'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 833 K 
+---------------------------------------------
+833 K     Trainable params
+0         Non-trainable params
+833 K     Total params
+3.335     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:51:54,610] Trial 20 finished with value: 0.9124068169293619 and parameters: {'num_neuronios': 515, 'num_camadas': 4, 'funcao_de_ativacao': 'Relu', 'taxa_de_aprendizado': 6.039201558325655e-05, 'otimizador': 'RMSPROP'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 454 K 
+---------------------------------------------
+454 K     Trainable params
+0         Non-trainable params
+454 K     Total params
+1.817     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:52:15,623] Trial 21 finished with value: 0.8862410830147528 and parameters: {'num_neuronios': 377, 'num_camadas': 4, 'funcao_de_ativacao': 'Relu', 'taxa_de_aprendizado': 0.0001952130339651507, 'otimizador': 'ADAM'}. Best is trial 11 with value: 0.8623690522435966.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 201 K 
+---------------------------------------------
+201 K     Trainable params
+0         Non-trainable params
+201 K     Total params
+0.805     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:52:34,517] Trial 22 finished with value: 0.8523559643214617 and parameters: {'num_neuronios': 247, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0013650690893187215, 'otimizador': 'ADAM'}. Best is trial 22 with value: 0.8523559643214617.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 193 K 
+---------------------------------------------
+193 K     Trainable params
+0         Non-trainable params
+193 K     Total params
+0.774     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:52:53,318] Trial 23 finished with value: 0.8486840242337377 and parameters: {'num_neuronios': 242, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0012829857819477714, 'otimizador': 'ADAM'}. Best is trial 23 with value: 0.8486840242337377.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 183 K 
+---------------------------------------------
+183 K     Trainable params
+0         Non-trainable params
+183 K     Total params
+0.732     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:53:12,098] Trial 24 finished with value: 0.8461451605766874 and parameters: {'num_neuronios': 235, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0019288320863842954, 'otimizador': 'ADAM'}. Best is trial 24 with value: 0.8461451605766874.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 66.5 K
+---------------------------------------------
+66.5 K    Trainable params
+0         Non-trainable params
+66.5 K    Total params
+0.266     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:53:30,538] Trial 25 finished with value: 0.898657279802393 and parameters: {'num_neuronios': 165, 'num_camadas': 3, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0014931285462273902, 'otimizador': 'ADAM'}. Best is trial 24 with value: 0.8461451605766874.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 193 K 
+---------------------------------------------
+193 K     Trainable params
+0         Non-trainable params
+193 K     Total params
+0.774     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:53:49,237] Trial 26 finished with value: 1.0504419714034108 and parameters: {'num_neuronios': 242, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0129454931215542, 'otimizador': 'ADAM'}. Best is trial 24 with value: 0.8461451605766874.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 68.2 K
+---------------------------------------------
+68.2 K    Trainable params
+0         Non-trainable params
+68.2 K    Total params
+0.273     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:54:06,746] Trial 27 finished with value: 0.8532153241289367 and parameters: {'num_neuronios': 139, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0016142258703355544, 'otimizador': 'ADAM'}. Best is trial 24 with value: 0.8461451605766874.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 122 K 
+---------------------------------------------
+122 K     Trainable params
+0         Non-trainable params
+122 K     Total params
+0.490     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:54:24,435] Trial 28 finished with value: 0.908669885316648 and parameters: {'num_neuronios': 230, 'num_camadas': 3, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0008262542736190939, 'otimizador': 'ADAM'}. Best is trial 24 with value: 0.8461451605766874.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 230 K 
+---------------------------------------------
+230 K     Trainable params
+0         Non-trainable params
+230 K     Total params
+0.923     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:54:44,324] Trial 29 finished with value: 1.0355281012953994 and parameters: {'num_neuronios': 322, 'num_camadas': 3, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.08954599121812534, 'otimizador': 'ADAM'}. Best is trial 24 with value: 0.8461451605766874.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 264 K 
+---------------------------------------------
+264 K     Trainable params
+0         Non-trainable params
+264 K     Total params
+1.059     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:55:03,598] Trial 30 finished with value: 1.0605457961261788 and parameters: {'num_neuronios': 285, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.010074622946802498, 'otimizador': 'ADAM'}. Best is trial 24 with value: 0.8461451605766874.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 71.9 K
+---------------------------------------------
+71.9 K    Trainable params
+0         Non-trainable params
+71.9 K    Total params
+0.288     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:55:20,782] Trial 31 finished with value: 0.8494249662590841 and parameters: {'num_neuronios': 143, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0019087686805679186, 'otimizador': 'ADAM'}. Best is trial 24 with value: 0.8461451605766874.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 61.2 K
+---------------------------------------------
+61.2 K    Trainable params
+0         Non-trainable params
+61.2 K    Total params
+0.245     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:55:37,611] Trial 32 finished with value: 0.8533056413177533 and parameters: {'num_neuronios': 131, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0037709727045836363, 'otimizador': 'ADAM'}. Best is trial 24 with value: 0.8461451605766874.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 141 K 
+---------------------------------------------
+141 K     Trainable params
+0         Non-trainable params
+141 K     Total params
+0.565     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:55:55,759] Trial 33 finished with value: 0.8451216732380793 and parameters: {'num_neuronios': 205, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0015945854798230308, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 31.6 K
+---------------------------------------------
+31.6 K    Trainable params
+0         Non-trainable params
+31.6 K    Total params
+0.126     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:56:11,710] Trial 34 finished with value: 0.9371770789480445 and parameters: {'num_neuronios': 91, 'num_camadas': 4, 'funcao_de_ativacao': 'LeakyReLU', 'taxa_de_aprendizado': 0.005782442695754017, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 127 K 
+---------------------------------------------
+127 K     Trainable params
+0         Non-trainable params
+127 K     Total params
+0.509     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:56:30,674] Trial 35 finished with value: 1.0354229168474036 and parameters: {'num_neuronios': 194, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.017398213792551184, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 83.5 K
+---------------------------------------------
+83.5 K    Trainable params
+0         Non-trainable params
+83.5 K    Total params
+0.334     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:56:48,114] Trial 36 finished with value: 0.9348692536472174 and parameters: {'num_neuronios': 155, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0003979116258183906, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 104 K 
+---------------------------------------------
+104 K     Trainable params
+0         Non-trainable params
+104 K     Total params
+0.418     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:57:05,286] Trial 37 finished with value: 0.8944668618285943 and parameters: {'num_neuronios': 211, 'num_camadas': 3, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.000924434113969565, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 13.1 K
+---------------------------------------------
+13.1 K    Trainable params
+0         Non-trainable params
+13.1 K    Total params
+0.053     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:57:20,937] Trial 38 finished with value: 0.8901665683406926 and parameters: {'num_neuronios': 55, 'num_camadas': 4, 'funcao_de_ativacao': 'Tangente_Hiperbólica', 'taxa_de_aprendizado': 0.002313402828872736, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 42.3 K
+---------------------------------------------
+42.3 K    Trainable params
+0         Non-trainable params
+42.3 K    Total params
+0.169     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:57:36,078] Trial 39 finished with value: 1.0379122968914254 and parameters: {'num_neuronios': 107, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 4.366455918246457e-05, 'otimizador': 'SGD'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 257 K 
+---------------------------------------------
+257 K     Trainable params
+0         Non-trainable params
+257 K     Total params
+1.031     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:57:55,957] Trial 40 finished with value: 0.9164998443494199 and parameters: {'num_neuronios': 281, 'num_camadas': 4, 'funcao_de_ativacao': 'LeakyReLU', 'taxa_de_aprendizado': 0.0059692114604084755, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 209 K 
+---------------------------------------------
+209 K     Trainable params
+0         Non-trainable params
+209 K     Total params
+0.837     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:58:15,334] Trial 41 finished with value: 0.8559507781027536 and parameters: {'num_neuronios': 252, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0011940278750615866, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 129 K 
+---------------------------------------------
+129 K     Trainable params
+0         Non-trainable params
+129 K     Total params
+0.519     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:58:34,130] Trial 42 finished with value: 0.8515108285423703 and parameters: {'num_neuronios': 196, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0021313843076777284, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 142 K 
+---------------------------------------------
+142 K     Trainable params
+0         Non-trainable params
+142 K     Total params
+0.570     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:58:53,755] Trial 43 finished with value: 1.0062026861890234 and parameters: {'num_neuronios': 206, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.00026754923180941493, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 110 K 
+---------------------------------------------
+110 K     Trainable params
+0         Non-trainable params
+110 K     Total params
+0.442     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:59:10,504] Trial 44 finished with value: 1.0368474464525108 and parameters: {'num_neuronios': 180, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 2.7279803885434667e-05, 'otimizador': 'SGD'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 82.5 K
+---------------------------------------------
+82.5 K    Trainable params
+0         Non-trainable params
+82.5 K    Total params
+0.330     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:59:28,208] Trial 45 finished with value: 0.8948565579588742 and parameters: {'num_neuronios': 154, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0006018918617609821, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 485 K 
+---------------------------------------------
+485 K     Trainable params
+0         Non-trainable params
+485 K     Total params
+1.940     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 19:59:50,126] Trial 46 finished with value: 1.0367822056662659 and parameters: {'num_neuronios': 339, 'num_camadas': 5, 'funcao_de_ativacao': 'Tangente_Hiperbólica', 'taxa_de_aprendizado': 0.0201474573829869, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 55.3 K
+---------------------------------------------
+55.3 K    Trainable params
+0         Non-trainable params
+55.3 K    Total params
+0.221     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:00:08,925] Trial 47 finished with value: 0.8670840101869516 and parameters: {'num_neuronios': 124, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0071027592897039814, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 153 K 
+---------------------------------------------
+153 K     Trainable params
+0         Non-trainable params
+153 K     Total params
+0.613     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:00:25,510] Trial 48 finished with value: 1.0354099342477077 and parameters: {'num_neuronios': 214, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0029203671785109596, 'otimizador': 'SGD'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 162 K 
+---------------------------------------------
+162 K     Trainable params
+0         Non-trainable params
+162 K     Total params
+0.648     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:00:44,299] Trial 49 finished with value: 0.9224316181903495 and parameters: {'num_neuronios': 267, 'num_camadas': 3, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.00035671080829543025, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 28.8 K
+---------------------------------------------
+28.8 K    Trainable params
+0         Non-trainable params
+28.8 K    Total params
+0.115     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:01:00,132] Trial 50 finished with value: 0.9487018814800091 and parameters: {'num_neuronios': 76, 'num_camadas': 5, 'funcao_de_ativacao': 'LeakyReLU', 'taxa_de_aprendizado': 0.0022607739484076087, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 190 K 
+---------------------------------------------
+190 K     Trainable params
+0         Non-trainable params
+190 K     Total params
+0.762     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:01:19,446] Trial 51 finished with value: 0.8656023157467794 and parameters: {'num_neuronios': 240, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0007900092152089299, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 299 K 
+---------------------------------------------
+299 K     Trainable params
+0         Non-trainable params
+299 K     Total params
+1.199     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:01:40,250] Trial 52 finished with value: 1.0413228558332863 and parameters: {'num_neuronios': 304, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.004618207243909937, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 109 K 
+---------------------------------------------
+109 K     Trainable params
+0         Non-trainable params
+109 K     Total params
+0.437     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:01:59,112] Trial 53 finished with value: 0.8536506523644033 and parameters: {'num_neuronios': 179, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0015520258075528825, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 169 K 
+---------------------------------------------
+169 K     Trainable params
+0         Non-trainable params
+169 K     Total params
+0.680     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:02:18,331] Trial 54 finished with value: 1.0350770651417598 and parameters: {'num_neuronios': 226, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.00014640811564500589, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 380 K 
+---------------------------------------------
+380 K     Trainable params
+0         Non-trainable params
+380 K     Total params
+1.522     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:02:39,503] Trial 55 finished with value: 0.8852233584528338 and parameters: {'num_neuronios': 344, 'num_camadas': 4, 'funcao_de_ativacao': 'Tangente_Hiperbólica', 'taxa_de_aprendizado': 0.001977480152179023, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 220 K 
+---------------------------------------------
+220 K     Trainable params
+0         Non-trainable params
+220 K     Total params
+0.882     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:02:58,795] Trial 56 finished with value: 0.8695090971171983 and parameters: {'num_neuronios': 259, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0011301534711351238, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 143 K 
+---------------------------------------------
+143 K     Trainable params
+0         Non-trainable params
+143 K     Total params
+0.575     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:03:15,232] Trial 57 finished with value: 1.0354435750648194 and parameters: {'num_neuronios': 207, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.000585527532745863, 'otimizador': 'SGD'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 126 K 
+---------------------------------------------
+126 K     Trainable params
+0         Non-trainable params
+126 K     Total params
+0.504     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:03:32,675] Trial 58 finished with value: 1.0254326146489787 and parameters: {'num_neuronios': 193, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.00024068253702028752, 'otimizador': 'RMSPROP'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 86.6 K
+---------------------------------------------
+86.6 K    Trainable params
+0         Non-trainable params
+86.6 K    Total params
+0.346     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:03:50,371] Trial 59 finished with value: 0.8649502967439003 and parameters: {'num_neuronios': 158, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.004061475383019739, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 299 K 
+---------------------------------------------
+299 K     Trainable params
+0         Non-trainable params
+299 K     Total params
+1.199     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:04:10,297] Trial 60 finished with value: 0.866468634240907 and parameters: {'num_neuronios': 304, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.010003362544216608, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 67.3 K
+---------------------------------------------
+67.3 K    Trainable params
+0         Non-trainable params
+67.3 K    Total params
+0.269     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:04:27,624] Trial 61 finished with value: 0.854525623627735 and parameters: {'num_neuronios': 138, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0016579043821503354, 'otimizador': 'ADAM'}. Best is trial 33 with value: 0.8451216732380793.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 48.2 K
+---------------------------------------------
+48.2 K    Trainable params
+0         Non-trainable params
+48.2 K    Total params
+0.193     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:04:44,575] Trial 62 finished with value: 0.8432705982818476 and parameters: {'num_neuronios': 115, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0027614881339109686, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 39.5 K
+---------------------------------------------
+39.5 K    Trainable params
+0         Non-trainable params
+39.5 K    Total params
+0.158     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:05:01,052] Trial 63 finished with value: 0.8573957539408228 and parameters: {'num_neuronios': 103, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.003116760192185323, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 8.1 K 
+---------------------------------------------
+8.1 K     Trainable params
+0         Non-trainable params
+8.1 K     Total params
+0.032     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:05:16,554] Trial 64 finished with value: 0.9106590937886446 and parameters: {'num_neuronios': 41, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0009453623186895224, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 100 K 
+---------------------------------------------
+100 K     Trainable params
+0         Non-trainable params
+100 K     Total params
+0.402     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:05:34,860] Trial 65 finished with value: 0.8813642305205731 and parameters: {'num_neuronios': 171, 'num_camadas': 4, 'funcao_de_ativacao': 'Relu', 'taxa_de_aprendizado': 0.0004411455649600445, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 180 K 
+---------------------------------------------
+180 K     Trainable params
+0         Non-trainable params
+180 K     Total params
+0.720     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:05:53,530] Trial 66 finished with value: 0.8855675358094737 and parameters: {'num_neuronios': 233, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.002528822317140864, 'otimizador': 'RMSPROP'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 50.5 K
+---------------------------------------------
+50.5 K    Trainable params
+0         Non-trainable params
+50.5 K    Total params
+0.202     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:06:10,392] Trial 67 finished with value: 1.0040402016479903 and parameters: {'num_neuronios': 118, 'num_camadas': 4, 'funcao_de_ativacao': 'LeakyReLU', 'taxa_de_aprendizado': 0.0067204553868145285, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 243 K 
+---------------------------------------------
+243 K     Trainable params
+0         Non-trainable params
+243 K     Total params
+0.975     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:06:30,543] Trial 68 finished with value: 1.0360527630121679 and parameters: {'num_neuronios': 273, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.3601417295635677, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 71.9 K
+---------------------------------------------
+71.9 K    Trainable params
+0         Non-trainable params
+71.9 K    Total params
+0.288     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:06:48,624] Trial 69 finished with value: 0.8536452450479647 and parameters: {'num_neuronios': 143, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.001321089931626269, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 29.1 K
+---------------------------------------------
+29.1 K    Trainable params
+0         Non-trainable params
+29.1 K    Total params
+0.117     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:07:04,363] Trial 70 finished with value: 0.9849611981056331 and parameters: {'num_neuronios': 87, 'num_camadas': 4, 'funcao_de_ativacao': 'Tangente_Hiperbólica', 'taxa_de_aprendizado': 0.0136261447128857, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 127 K 
+---------------------------------------------
+127 K     Trainable params
+0         Non-trainable params
+127 K     Total params
+0.509     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:07:22,868] Trial 71 finished with value: 0.8724379665875348 and parameters: {'num_neuronios': 194, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0007376463746880468, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 73.8 K
+---------------------------------------------
+73.8 K    Trainable params
+0         Non-trainable params
+73.8 K    Total params
+0.295     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:07:40,424] Trial 72 finished with value: 0.8499949659622649 and parameters: {'num_neuronios': 145, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0017645717727716977, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 193 K 
+---------------------------------------------
+193 K     Trainable params
+0         Non-trainable params
+193 K     Total params
+0.774     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:07:59,640] Trial 73 finished with value: 0.8753329792336361 and parameters: {'num_neuronios': 242, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.0035001908595138935, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 101 K 
+---------------------------------------------
+101 K     Trainable params
+0         Non-trainable params
+101 K     Total params
+0.406     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:08:18,624] Trial 74 finished with value: 0.8532127998421064 and parameters: {'num_neuronios': 172, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 0.004617325392229313, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 162 K 
+---------------------------------------------
+162 K     Trainable params
+0         Non-trainable params
+162 K     Total params
+0.652     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:08:38,122] Trial 75 finished with value: 1.3693347362781376 and parameters: {'num_neuronios': 221, 'num_camadas': 4, 'funcao_de_ativacao': 'Sigmoide', 'taxa_de_aprendizado': 1.1045097961212142e-06, 'otimizador': 'ADAM'}. Best is trial 62 with value: 0.8432705982818476.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 49.0 K
+---------------------------------------------
+49.0 K    Trainable params
+0         Non-trainable params
+49.0 K    Total params
+0.196     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:08:55,292] Trial 76 finished with value: 0.8124891566920303 and parameters: {'num_neuronios': 116, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.0017877318356991326, 'otimizador': 'ADAM'}. Best is trial 76 with value: 0.8124891566920303.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 49.7 K
+---------------------------------------------
+49.7 K    Trainable params
+0         Non-trainable params
+49.7 K    Total params
+0.199     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:09:10,782] Trial 77 finished with value: 1.0473606782527327 and parameters: {'num_neuronios': 117, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.0020937323475448584, 'otimizador': 'SGD'}. Best is trial 76 with value: 0.8124891566920303.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 14.4 K
+---------------------------------------------
+14.4 K    Trainable params
+0         Non-trainable params
+14.4 K    Total params
+0.058     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:09:26,149] Trial 78 finished with value: 0.887395362942705 and parameters: {'num_neuronios': 58, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.0003598441220204762, 'otimizador': 'RMSPROP'}. Best is trial 76 with value: 0.8124891566920303.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 80.6 K
+---------------------------------------------
+80.6 K    Trainable params
+0         Non-trainable params
+80.6 K    Total params
+0.322     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:09:43,820] Trial 79 finished with value: 0.873092603435323 and parameters: {'num_neuronios': 152, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.001119174509244223, 'otimizador': 'ADAM'}. Best is trial 76 with value: 0.8124891566920303.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 32.2 K
+---------------------------------------------
+32.2 K    Trainable params
+0         Non-trainable params
+32.2 K    Total params
+0.129     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:09:59,576] Trial 80 finished with value: 0.7868210833063772 and parameters: {'num_neuronios': 92, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.008570377735708243, 'otimizador': 'ADAM'}. Best is trial 80 with value: 0.7868210833063772.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 34.8 K
+---------------------------------------------
+34.8 K    Trainable params
+0         Non-trainable params
+34.8 K    Total params
+0.139     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:10:16,019] Trial 81 finished with value: 0.8598396966132393 and parameters: {'num_neuronios': 96, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.008064154226455221, 'otimizador': 'ADAM'}. Best is trial 80 with value: 0.7868210833063772.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 17.5 K
+---------------------------------------------
+17.5 K    Trainable params
+0         Non-trainable params
+17.5 K    Total params
+0.070     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:10:31,583] Trial 82 finished with value: 0.8982268449507708 and parameters: {'num_neuronios': 65, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.03041105621929953, 'otimizador': 'ADAM'}. Best is trial 80 with value: 0.7868210833063772.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 25.7 K
+---------------------------------------------
+25.7 K    Trainable params
+0         Non-trainable params
+25.7 K    Total params
+0.103     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:10:47,400] Trial 83 finished with value: 0.7936196988892458 and parameters: {'num_neuronios': 81, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.00465250620015821, 'otimizador': 'ADAM'}. Best is trial 80 with value: 0.7868210833063772.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 27.4 K
+---------------------------------------------
+27.4 K    Trainable params
+0         Non-trainable params
+27.4 K    Total params
+0.110     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:11:03,515] Trial 84 finished with value: 0.7725181894480123 and parameters: {'num_neuronios': 84, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.005203233741448786, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 20.4 K
+---------------------------------------------
+20.4 K    Trainable params
+0         Non-trainable params
+20.4 K    Total params
+0.082     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:11:19,281] Trial 85 finished with value: 0.879689855423024 and parameters: {'num_neuronios': 71, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.00547861500480747, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 8.7 K 
+---------------------------------------------
+8.7 K     Trainable params
+0         Non-trainable params
+8.7 K     Total params
+0.035     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:11:34,876] Trial 86 finished with value: 0.830311749255933 and parameters: {'num_neuronios': 43, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.01193522059061575, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 6.0 K 
+---------------------------------------------
+6.0 K     Trainable params
+0         Non-trainable params
+6.0 K     Total params
+0.024     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:11:50,842] Trial 87 finished with value: 0.7800373216422894 and parameters: {'num_neuronios': 34, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.029068920833421948, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 8.1 K 
+---------------------------------------------
+8.1 K     Trainable params
+0         Non-trainable params
+8.1 K     Total params
+0.032     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:12:06,485] Trial 88 finished with value: 0.9797926353222279 and parameters: {'num_neuronios': 41, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.07548976276658818, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 10.5 K
+---------------------------------------------
+10.5 K    Trainable params
+0         Non-trainable params
+10.5 K    Total params
+0.042     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:12:22,388] Trial 89 finished with value: 0.8681728578746953 and parameters: {'num_neuronios': 48, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.03331924088035182, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 5.4 K 
+---------------------------------------------
+5.4 K     Trainable params
+0         Non-trainable params
+5.4 K     Total params
+0.022     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:12:38,208] Trial 90 finished with value: 0.8336954815775482 and parameters: {'num_neuronios': 32, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.020515856129025366, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 6.0 K 
+---------------------------------------------
+6.0 K     Trainable params
+0         Non-trainable params
+6.0 K     Total params
+0.024     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:12:53,499] Trial 91 finished with value: 0.8412981034481117 and parameters: {'num_neuronios': 34, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.016673937033433738, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 4.9 K 
+---------------------------------------------
+4.9 K     Trainable params
+0         Non-trainable params
+4.9 K     Total params
+0.020     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:13:08,803] Trial 92 finished with value: 0.8350710128885711 and parameters: {'num_neuronios': 30, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.021052909909516873, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 25.7 K
+---------------------------------------------
+25.7 K    Trainable params
+0         Non-trainable params
+25.7 K    Total params
+0.103     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:13:24,702] Trial 93 finished with value: 0.8462057790756077 and parameters: {'num_neuronios': 81, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.018155032115856628, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 5.2 K 
+---------------------------------------------
+5.2 K     Trainable params
+0         Non-trainable params
+5.2 K     Total params
+0.021     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:13:40,143] Trial 94 finished with value: 0.8704483871119455 and parameters: {'num_neuronios': 31, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.045034070761456255, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 15.2 K
+---------------------------------------------
+15.2 K    Trainable params
+0         Non-trainable params
+15.2 K    Total params
+0.061     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:13:56,003] Trial 95 finished with value: 0.8687966516588587 and parameters: {'num_neuronios': 60, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.02444876458370249, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 10.5 K
+---------------------------------------------
+10.5 K    Trainable params
+0         Non-trainable params
+10.5 K    Total params
+0.042     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:14:11,898] Trial 96 finished with value: 0.8942993663670089 and parameters: {'num_neuronios': 48, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.013279699063741232, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 5.2 K 
+---------------------------------------------
+5.2 K     Trainable params
+0         Non-trainable params
+5.2 K     Total params
+0.021     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:14:27,292] Trial 97 finished with value: 0.8858315383225785 and parameters: {'num_neuronios': 31, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.06657186650406446, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 23.0 K
+---------------------------------------------
+23.0 K    Trainable params
+0         Non-trainable params
+23.0 K    Total params
+0.092     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:14:43,870] Trial 98 finished with value: 1.0355370860480302 and parameters: {'num_neuronios': 76, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.17487301917747716, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 40.1 K
+---------------------------------------------
+40.1 K    Trainable params
+0         Non-trainable params
+40.1 K    Total params
+0.161     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:14:59,536] Trial 99 finished with value: 1.0248250776249017 and parameters: {'num_neuronios': 104, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.01018859417732991, 'otimizador': 'SGD'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 12.0 K
+---------------------------------------------
+12.0 K    Trainable params
+0         Non-trainable params
+12.0 K    Total params
+0.048     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:15:15,426] Trial 100 finished with value: 0.8769914883246891 and parameters: {'num_neuronios': 52, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.04590728074729368, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 29.7 K
+---------------------------------------------
+29.7 K    Trainable params
+0         Non-trainable params
+29.7 K    Total params
+0.119     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:15:31,314] Trial 101 finished with value: 0.8747049346873765 and parameters: {'num_neuronios': 88, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.02123316529851526, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 18.9 K
+---------------------------------------------
+18.9 K    Trainable params
+0         Non-trainable params
+18.9 K    Total params
+0.076     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:15:47,065] Trial 102 finished with value: 0.8608812376486439 and parameters: {'num_neuronios': 68, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.014418109338225392, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 8.1 K 
+---------------------------------------------
+8.1 K     Trainable params
+0         Non-trainable params
+8.1 K     Total params
+0.032     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:16:02,788] Trial 103 finished with value: 0.824090234339021 and parameters: {'num_neuronios': 41, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.008872558937471634, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 4.9 K 
+---------------------------------------------
+4.9 K     Trainable params
+0         Non-trainable params
+4.9 K     Total params
+0.020     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:16:18,192] Trial 104 finished with value: 0.8845881336340364 and parameters: {'num_neuronios': 30, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.025708150212762383, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 8.7 K 
+---------------------------------------------
+8.7 K     Trainable params
+0         Non-trainable params
+8.7 K     Total params
+0.035     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:16:33,641] Trial 105 finished with value: 0.9402503899917019 and parameters: {'num_neuronios': 43, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.009943154677602546, 'otimizador': 'RMSPROP'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 14.8 K
+---------------------------------------------
+14.8 K    Trainable params
+0         Non-trainable params
+14.8 K    Total params
+0.059     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:16:49,415] Trial 106 finished with value: 7.806147947445829 and parameters: {'num_neuronios': 59, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.11870180055724162, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 25.1 K
+---------------------------------------------
+25.1 K    Trainable params
+0         Non-trainable params
+25.1 K    Total params
+0.100     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:17:05,236] Trial 107 finished with value: 0.89834348107564 and parameters: {'num_neuronios': 80, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.03847157978282985, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 36.1 K
+---------------------------------------------
+36.1 K    Trainable params
+0         Non-trainable params
+36.1 K    Total params
+0.144     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:17:21,751] Trial 108 finished with value: 0.8357533440926502 and parameters: {'num_neuronios': 98, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.007675162282618954, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type       | Params
+---------------------------------------------
+0 | todas_camadas | Sequential | 32.2 K
+---------------------------------------------
+32.2 K    Trainable params
+0         Non-trainable params
+32.2 K    Total params
+0.129     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/lightning/pytorch/loops/fit_loop.py:298: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=55` reached.
+/home/geovana23021/anaconda3/envs/ilumpy/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-20 20:17:37,937] Trial 109 finished with value: 0.8634615888236077 and parameters: {'num_neuronios': 92, 'num_camadas': 4, 'funcao_de_ativacao': 'ELU', 'taxa_de_aprendizado': 0.007868699176981032, 'otimizador': 'ADAM'}. Best is trial 84 with value: 0.7725181894480123.
