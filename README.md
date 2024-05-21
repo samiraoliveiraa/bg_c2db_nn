@@ -50,7 +50,13 @@ _dataset_tratado.csv_: Dataset tratado
 
 _tratamento_de_dados.ipynb_: Processo de tratamento do dataset
 
-_treinamento_da_rede.ipynb_: Implementação da rede neural
+_treinamento_da_rede_otimizacao_gpu.ip_: Implementação da rede neural
+
+_otimizacao_dos_hiperparametros.py_: Processo de otimizacao dos hiperparâmetros utilizando Optuna
+
+_trials_job_1516.out_:Este script é utilizado para executar tarefas de treinamento e otimização em um ambiente de computação que suporte GPUs 
+
+_modelo_final.BG.p_:Este arquivo contém o modelo final treinado para prever o band gap
 
 <hr>
 <b><br>Conclusão<br></b>
