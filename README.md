@@ -52,14 +52,6 @@ _tratamento_de_dados.ipynb_: Processo de tratamento do dataset
 
 _treinamento_da_rede.ipynb_: Implementação da rede neural
 
-_otimizacao_da_rede_gpu.py_: Processo de otimização da rede utilizando Optuna
-
-_trials_gpu.ipynb_:
-
-_job_gpu.sh_:
-
-_modelo_final.BG.p_:
-
 <hr>
 <b><br>Conclusão<br></b>
 Após a otimização, nota-se que o conjunto ideal hiperparâmetros que se adapta a rede resultou em um Erro Quadrático Médio (RMSE) de aproximadamente 0,867. Dessa forma é possível concluir a rede em questão não é tão satisfatória, por o target necessitar de uma alta precisão nos resultados, indicando assim a necessidade de aprimoramentos adicionais na rede. 
