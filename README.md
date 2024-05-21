@@ -56,7 +56,8 @@ _otimizacao_dos_hiperparametros.py_: Processo de otimizacao dos hiperparâmetros
 
 _trials_job_1516.out_:Este script é utilizado para executar tarefas de treinamento e otimização em um ambiente de computação que suporte GPUs 
 
-_modelo_final.BG.p_:Este arquivo contém o modelo final treinado para prever o band gap
+_modelo_final.BG.p_: arquivo que contém os pesos e vieses da rede neural treinada
+
 
 <hr>
 <b><br>Conclusão<br></b>
