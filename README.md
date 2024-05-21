@@ -1,4 +1,4 @@
-# bg_c2db_nn - Trabalho Final Redes Neurais
+# Band Gap Prediction - Trabalho Final de Redes Neurais
 _Grupo: Natália Alcantara, Samira Oliveira e Geovana Bettero_
 
 Este repositório trata-se de um trabalho final feito por três estudantes da ILUM Escola de Ciência. O trabalho se concentra na criação de uma rede neural MLP para prever o band gap de um material por meio de um banco de dados chamado (C2DB) de materiais 2D. O banco de dados contém propriedades estruturais, termodinâmicas, elásticas, eletrônicas, magnéticas e ópticas de cerca de 4.000 materiais bidimensionais distribuídos em mais de 40 estruturas cristalinas diferentes. Para montagem dataset foram escolhidas algumas colunas do banco para sua formulação, como visto a seguir.
