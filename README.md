@@ -86,3 +86,5 @@ Após a otimização, nota-se que o conjunto ideal hiperparâmetros que se adapt
 
 [8] ChatGPT para ajuda na resolução de bugs
 
+[9]Imagem de Band Gap: https://nirajchawake.wordpress.com/2014/10/20/semiconductors-why-%E2%88%86e%E2%89%A43-2-ev/
+
