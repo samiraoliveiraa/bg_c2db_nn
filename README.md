@@ -7,8 +7,6 @@ Este repositório trata-se de um trabalho final feito por três estudantes da IL
 <b><br>Importância<br></b>
 Prever o band gap de um material é de grande importância em várias áreas da ciência, principalmente na engenharia de materiais e na indústria eletrônica. O band gap é uma propriedade fundamental que determina o comportamento de um material. Conhecer o band gap de um material é crucial para projetar novos materiais com propriedades específicas, como semicondutores para dispositivos eletrônicos. Desta forma, com redes neurais tornou-se possível prever o band gap de materiais com maior precisão e eficiência, facilitando o desenvolvimento de materiais com propriedades sob medida para diversas aplicações.
 
-![Imagem de Exemplo](https://nirajchawake.wordpress.com/wp-content/uploads/2014/10/picture1.png)
-
 <img src="https://nirajchawake.wordpress.com/wp-content/uploads/2014/10/picture1.png" width="400">
 
 <hr>
